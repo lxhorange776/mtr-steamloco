@@ -10,8 +10,8 @@ jobs:
   build:
     strategy:
       matrix:
-        minecraft: [ 1.18.2 ]
-        loader: [ fabric ]
+        minecraft: [ 1.16.5 ]
+        loader: [ forge ]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
