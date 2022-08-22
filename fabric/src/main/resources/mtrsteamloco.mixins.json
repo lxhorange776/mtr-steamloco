@@ -12,7 +12,12 @@
     "DebugScreenOverlayMixin",
     "RenderTrainsMixin",
     "RailMixin",
-    "RenderTypeAccessor"
+    "RenderTypeAccessor",
+    "BookEditScreenMixin",
+    "TrainClientAccessor",
+    "DynamicResourceMixin",
+    "BveTrainSoundMixin",
+    "JonModelTrainRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -5,13 +5,19 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "TrainMixin",
-    "TrainAccessor"
+    "TrainAccessor",
+    "MTRMixin"
   ],
   "client": [
     "CustomResourcesMixin",
     "RenderTrainsMixin",
     "RailMixin",
-    "RenderTypeAccessor"
+    "RenderTypeAccessor",
+    "BookEditScreenMixin",
+    "TrainClientAccessor",
+    "DynamicResourceMixin",
+    "BveTrainSoundMixin",
+    "JonModelTrainRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
